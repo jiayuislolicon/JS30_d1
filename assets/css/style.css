@@ -1,0 +1,270 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+
+/** Remove default margin. */
+body { margin: 0; }
+
+/* HTML5 display definitions ========================================================================== */
+/** Correct `block` display not defined for any HTML5 element in IE 8/9. Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox. Correct `block` display not defined for `main` in IE 11. */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+/** 1. Correct `inline-block` display not defined in IE 8/9. 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera. */
+audio, canvas, progress, video { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
+
+/** Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
+audio:not([controls]) { display: none; height: 0; }
+
+/** Address `[hidden]` styling not present in IE 8/9/10. Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22. */
+[hidden], template { display: none; }
+
+/* Links ========================================================================== */
+/** Remove the gray background color from active links in IE 10. */
+a { background-color: transparent; }
+
+/** Improve readability when focused and also mouse hovered in all browsers. */
+a:active, a:hover { outline: 0; }
+
+/* Text-level semantics ========================================================================== */
+/** Address styling not present in IE 8/9/10/11, Safari, and Chrome. */
+abbr[title] { border-bottom: 1px dotted; }
+
+/** Address style set to `bolder` in Firefox 4+, Safari, and Chrome. */
+b, strong { font-weight: bold; }
+
+/** Address styling not present in Safari and Chrome. */
+dfn { font-style: italic; }
+
+/** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari, and Chrome. */
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+/** Address styling not present in IE 8/9. */
+mark { background: #ff0; color: #000; }
+
+/** Address inconsistent and variable font size in all browsers. */
+small { font-size: 80%; }
+
+/** Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+/* Embedded content ========================================================================== */
+/** Remove border when inside `a` element in IE 8/9/10. */
+img { border: 0; }
+
+/** Correct overflow not hidden in IE 9/10/11. */
+svg:not(:root) { overflow: hidden; }
+
+/* Grouping content ========================================================================== */
+/** Address margin not present in IE 8/9 and Safari. */
+figure { margin: 1em 40px; }
+
+/** Address differences between Firefox and other browsers. */
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+
+/** Contain overflow in all browsers. */
+pre { overflow: auto; }
+
+/** Address odd `em`-unit font size rendering in all browsers. */
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+/* Forms ========================================================================== */
+/** Known limitation: by default, Chrome and Safari on OS X allow very limited styling of `select`, unless a `border` property is set. */
+/** 1. Correct color not being inherited. Known issue: affects color of disabled elements. 2. Correct font properties not being inherited. 3. Address margins set differently in Firefox 4+, Safari, and Chrome. */
+button, input, optgroup, select, textarea { color: inherit; /* 1 */ font: inherit; /* 2 */ margin: 0; /* 3 */ }
+
+/** Address `overflow` set to `hidden` in IE 8/9/10/11. */
+button { overflow: visible; }
+
+/** Address inconsistent `text-transform` inheritance for `button` and `select`. All other form control elements do not inherit `text-transform` values. Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera. Correct `select` style inheritance in Firefox. */
+button, select { text-transform: none; }
+
+/** 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` and `video` controls. 2. Correct inability to style clickable `input` types in iOS. 3. Improve usability and consistency of cursor style between image-type `input` and others. */
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */ }
+
+/** Re-set default cursor for disabled elements. */
+button[disabled], html input[disabled] { cursor: default; }
+
+/** Remove inner padding and border in Firefox 4+. */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/** Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet. */
+input { line-height: normal; }
+
+/** It's recommended that you don't attempt to style these elements. Firefox's implementation doesn't respect box-sizing, padding, or width.  1. Address box sizing set to `content-box` in IE 8/9/10. 2. Remove excess padding in IE 8/9/10. */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+
+/** Fix the cursor style for Chrome's increment/decrement buttons. For certain `font-size` values of the `input`, it causes the cursor style of the decrement button to change from `default` to `text`. */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/** 1. Address `appearance` set to `searchfield` in Safari and Chrome. 2. Address `box-sizing` set to `border-box` in Safari and Chrome (include `-moz` to future-proof). */
+input[type="search"] { -webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box; }
+
+/** Remove inner padding and search cancel button in Safari and Chrome on OS X. Safari (but not Chrome) clips the cancel button when the search input has padding (and `textfield` appearance). */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/** Define consistent border, margin, and padding. */
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+/** 1. Correct `color` not being inherited in IE 8/9/10/11. 2. Remove padding so people aren't caught out if they zero out fieldsets. */
+legend { border: 0; /* 1 */ padding: 0; /* 2 */ }
+
+/** Remove default vertical scrollbar in IE 8/9/10/11. */
+textarea { overflow: auto; }
+
+/** Don't inherit the `font-weight` (applied by a rule above). NOTE: the default cannot safely be changed in Chrome and Safari on OS X. */
+optgroup { font-weight: bold; }
+
+/* Tables ========================================================================== */
+/** Remove most spacing between table cells. */
+table { border-collapse: collapse; border-spacing: 0; }
+
+td, th { padding: 0; }
+
+* { box-sizing: border-box; }
+
+body { font-family: 'Roboto', sans-serif; letter-spacing: 1px; }
+
+footer { position: absolute; bottom: 20px; right: 20px; }
+footer span { font-size: 14px; font-weight: 300; }
+
+#main-wrapper .content_penguins { display: flex; height: 420px; align-items: flex-end; animation: zoombigout 1s cubic-bezier(1, 0.97, 0, 1); }
+#main-wrapper .content_penguins .item { display: flex; align-items: center; justify-content: center; flex-direction: column; margin-bottom: 40px; /*command*/ /*everyface*/ }
+#main-wrapper .content_penguins .item .penguin { margin: 0 5px 40px; position: relative; height: 280px; }
+#main-wrapper .content_penguins .item .penguin .face { width: 110px; height: 180px; border-radius: 50px 50px 0 0; background-color: #007BBB; position: relative; }
+#main-wrapper .content_penguins .item .penguin .face .eyes { display: flex; position: absolute; left: 50%; top: 20px; transform: translateX(-50%); }
+#main-wrapper .content_penguins .item .penguin .face .eyes .eye { width: 10px; height: 10px; background-color: black; border-radius: 50%; }
+#main-wrapper .content_penguins .item .penguin .face .eyes .eye:first-child { margin-right: 5px; }
+#main-wrapper .content_penguins .item .penguin .face .mouth { position: absolute; top: 35px; left: 50px; }
+#main-wrapper .content_penguins .item .penguin .face .mouth .lip { width: 40px; height: 15px; background-color: #F29300; border-radius: 20px; }
+#main-wrapper .content_penguins .item .penguin .face .mouth .bottom { transform-origin: left; transform: translateY(-15px); }
+#main-wrapper .content_penguins .item .penguin .body { width: 110px; height: 150px; position: absolute; bottom: 0; transition: .2s; }
+#main-wrapper .content_penguins .item .penguin .body:before { content: ''; width: 100px; height: 100px; position: absolute; bottom: 0; left: 10px; background-color: #fff; z-index: -1; }
+#main-wrapper .content_penguins .item .penguin .body .arm { width: 35px; height: 80px; background-color: #007BBB; border-radius: 0 0 15px 15px; position: absolute; transition: .5s; }
+#main-wrapper .content_penguins .item .penguin .body .belly { width: 75px; height: 200px; background-color: #fff; border-radius: 40px 40px 0 0; position: absolute; bottom: 0; right: 0; transition: .2s; }
+#main-wrapper .content_penguins .item .kbword { width: 60px; height: 60px; background-color: #fff; border-radius: 5px; box-shadow: 3px 5px 15px rgba(0, 123, 187, 0.5); cursor: pointer; }
+#main-wrapper .content_penguins .item .kbword:hover { background-color: #007BBB; box-shadow: 0px 0px 0px rgba(0, 123, 187, 0.5); }
+#main-wrapper .content_penguins .item .kbword:hover kbd { color: #fff; transition: .2s color; }
+#main-wrapper .content_penguins .item .kbword kbd { font-weight: bolder; color: #007BBB; font-size: 30px; line-height: 60px; display: block; text-align: center; transition: .2s color; font-family: 'Roboto', sans-serif; }
+#main-wrapper .content_penguins .item .playing { background-color: #007BBB; box-shadow: 0px 0px 0px rgba(0, 123, 187, 0.5); transition: .2s; }
+#main-wrapper .content_penguins .item .playing kbd { color: #fff; transition: .2s color; }
+#main-wrapper .content_penguins .item .penguinPlaying { height: 400px; transition: .5s; }
+#main-wrapper .content_penguins .item .penguinPlaying .body { height: 223px; transition: .5s; }
+#main-wrapper .content_penguins .item .penguinPlaying .body .arm { height: 135px; transition: .5s; }
+#main-wrapper .content_penguins .item .penguinPlaying .body .belly { height: 330px; transition: .5s; }
+#main-wrapper .content_penguins .item .penguinPlaying.centerhand .body .arm:nth-child(2) { height: 135px; transform: translateY(0px); transition: .5s; }
+#main-wrapper .content_penguins .item .righthand .body:before { left: 0; }
+#main-wrapper .content_penguins .item .righthand .body .arm { right: 0; }
+#main-wrapper .content_penguins .item .righthand .body .belly { right: auto; left: 0; }
+#main-wrapper .content_penguins .item .centerhand .body:before { width: 90px; }
+#main-wrapper .content_penguins .item .centerhand .body .arm:nth-child(2) { right: 0; z-index: 10; top: 0; height: 130px; transform: translateY(-50px); }
+#main-wrapper .content_penguins .item .centerhand .body .belly { left: 35px; width: 40px; }
+#main-wrapper .content_penguins .item .deepblue .face { background-color: #2F2342; }
+#main-wrapper .content_penguins .item .deepblue .face .eyes .eye { background-color: #fff; }
+#main-wrapper .content_penguins .item .deepblue .body .arm { background-color: #2F2342; }
+#main-wrapper .content_penguins .item .leftround .body:before { border-radius: 0 0 20px 20px; }
+#main-wrapper .content_penguins .item .leftround .body .belly { border-radius: 40px; }
+#main-wrapper .content_penguins .item .rightround .body:before { border-radius: 0 0 20px 0; }
+#main-wrapper .content_penguins .item .rightround .body .belly { border-radius: 40px 40px 20px 0; }
+#main-wrapper .content_penguins .item .bothround .body:before { border-radius: 0 0 20px 20px; }
+#main-wrapper .content_penguins .item .bothround .body .belly { border-radius: 20px; }
+#main-wrapper .content_penguins .item .p1 .face .eyes { align-items: flex-end; }
+#main-wrapper .content_penguins .item .p1 .face .eyes .eye:first-child { margin-right: 10px; width: 15px; height: 7px; border-radius: 10px; }
+#main-wrapper .content_penguins .item .p1 .face .mouth { transform-origin: left; animation: longmouth .2s ease-out infinite alternate; }
+#main-wrapper .content_penguins .item .p2 .face .eyes { transform: rotate(-10deg) translate(-25px, -2px); }
+#main-wrapper .content_penguins .item .p2 .face .eyes .eye { background-color: #fff; }
+#main-wrapper .content_penguins .item .p2 .face .mouth { left: 18px; transform-origin: right; transform: rotate(-10deg); animation: longmouth .2s ease-out infinite alternate; }
+#main-wrapper .content_penguins .item .p4 .face .mouth { animation: longmouth .1s ease-in infinite alternate; }
+#main-wrapper .content_penguins .item .p3 .face .eyes { transform: translateX(5px); }
+#main-wrapper .content_penguins .item .p3 .face .mouth { transform: translateX(15px); }
+#main-wrapper .content_penguins .item .p3 .face .mouth .bottom { transform-origin: left; transform: translate(3px, -19px) rotate(47deg); width: 30px; animation: openmouth_P3 .2s infinite alternate; }
+#main-wrapper .content_penguins .item .p5 .face .eyes { left: 50px; }
+#main-wrapper .content_penguins .item .p5 .face .eyes .eye:first-child { display: none; }
+#main-wrapper .content_penguins .item .p5 .face .mouth { top: 30px; left: 0px; }
+#main-wrapper .content_penguins .item .p5 .face .mouth .top { transform: rotate(40deg); transform-origin: right; animation: openmouth_P5_top .2s infinite alternate; }
+#main-wrapper .content_penguins .item .p5 .face .mouth .bottom { transform: translate(7px, -17px); width: 35px; animation: openmouth_P5 .2s infinite alternate; }
+#main-wrapper .content_penguins .item .p6 .face .eyes { transform: translateX(5px); left: 45px; }
+#main-wrapper .content_penguins .item .p6 .face .eyes .eye:first-child { display: none; }
+#main-wrapper .content_penguins .item .p6 .face .eyes .eye:last-child { margin-right: 10px; width: 15px; height: 7px; border-radius: 10px; }
+#main-wrapper .content_penguins .item .p6 .face .mouth { transform: translate(23px, -5px); top: 30px; }
+#main-wrapper .content_penguins .item .p6 .face .mouth .bottom { transform-origin: left; transform: translate(3px, -19px) rotate(47deg); width: 30px; animation: openmouth_P6 .1s infinite alternate; }
+#main-wrapper .content_penguins .item .p7 .face .eyes { top: 5px; transform: translateX(-50%) rotate(-10deg); }
+#main-wrapper .content_penguins .item .p7 .face .mouth { top: 18px; left: 55px; }
+#main-wrapper .content_penguins .item .p7 .face .mouth .top { transform: translateY(2px) rotate(-25deg); transform-origin: left; animation: openmouth_P7_top .3s infinite alternate; }
+#main-wrapper .content_penguins .item .p7 .face .mouth .bottom { transform: translateY(-18px) rotate(20deg); animation: openmouth_P7 .3s infinite alternate; }
+#main-wrapper .content_penguins .item .p8 .face .eyes { top: 15px; transform: translateX(-50%) rotate(30deg); }
+#main-wrapper .content_penguins .item .p8 .face .mouth { top: 20px; left: 15px; transform: rotate(30deg); }
+#main-wrapper .content_penguins .item .p8 .face .mouth .top { animation: openmouth_P8_top .4s infinite alternate; }
+#main-wrapper .content_penguins .item .p8 .face .mouth .bottom { transform-origin: right; width: 35px; transform: translateY(-17px) rotate(-45deg); animation: openmouth_P8 .4s infinite alternate; }
+#main-wrapper .content_penguins .item .p9 .face .mouth { left: 25px; transform-origin: right; animation: longmouth .3s ease-in-out infinite alternate; }
+#main-wrapper .content_penguins .item .p10 .face .mouth { left: 35px; transform-origin: center; animation: shortmouth .3s ease-in-out infinite alternate; }
+#main-wrapper .content_penguins .item .p11 .face .eyes { left: 50px; top: 15px; transform: translateX(-50%) rotate(30deg); }
+#main-wrapper .content_penguins .item .p11 .face .mouth { top: 20px; left: 10px; transform: rotate(30deg); }
+#main-wrapper .content_penguins .item .p11 .face .mouth .top { animation: openmouth_P11_top .1s infinite alternate; }
+#main-wrapper .content_penguins .item .p11 .face .mouth .bottom { transform-origin: right; width: 35px; transform: translate(3px, -19px) rotate(-45deg); animation: openmouth_P11 .1s infinite alternate; }
+#main-wrapper .content_penguins .item .p12 .face .eyes .eye:first-child { display: none; }
+#main-wrapper .content_penguins .item .p12 .face .mouth { top: 25px; left: 5px; }
+#main-wrapper .content_penguins .item .p12 .face .mouth .top { transform: rotate(30deg) translateY(3px); transform-origin: right; }
+#main-wrapper .content_penguins .item .p12 .face .mouth .bottom { width: 35px; transform-origin: right; transform: translate(5px, -14px) rotate(-5deg); animation: openmouth_P12 .2s infinite alternate; }
+#main-wrapper .content_penguins .item:nth-child(odd) .kbword:hover kbd { transform-origin: center; animation: zoomout .5s; }
+#main-wrapper .content_penguins .item:nth-child(even) .kbword:hover { overflow: hidden; }
+#main-wrapper .content_penguins .item:nth-child(even) .kbword:hover kbd { animation: move .8s; }
+#main-wrapper .content_penguins .item:nth-child(3n) .penguin { transform-origin: bottom; animation: bodymoveit .35s infinite alternate; }
+#main-wrapper .content_penguins .item:nth-child(3n-1) .penguin { transform-origin: bottom; animation: bodymoveit .3s infinite alternate; }
+#main-wrapper .content_penguins .item:nth-child(3n-2) .penguin { transform-origin: bottom; animation: bodymoveit .2s infinite alternate; }
+
+@keyframes zoomout { from { transform: scale(0); }
+  to { transform: scale(1); } }
+@keyframes move { 0% { transform: translateY(-50px); }
+  24% { opacity: 1; }
+  25% { transform: translateY(50px); opacity: 0; }
+  49% { opacity: 0; }
+  50% { transform: translateY(-50px); opacity: 1; }
+  75% { transform: translateY(0px); } }
+@keyframes bodymoveit { from { transform: scale(1, 1.2); }
+  to { transform: scale(1, 1); } }
+@keyframes longmouth { from { transform: scale(1.5, 1); }
+  to { transform: scale(1, 1); } }
+@keyframes shortmouth { from { transform: scale(0.6, 1); }
+  to { transform: scale(1, 1); } }
+@keyframes openmouth_P3 { from { transform: translate(5px, -12px) rotate(0deg); }
+  to { transform: translate(3px, -19px) rotate(47deg); } }
+@keyframes openmouth_P5 { from { transform: translate(9px, -31px) rotate(30deg); }
+  to { transform: translate(7px, -17px) rotate(0deg); } }
+@keyframes openmouth_P5_top { from { transform: translate(0px, 2px) rotate(30deg); }
+  to { transform: translate(0, 0) rotate(40deg); } }
+@keyframes openmouth_P6 { from { transform: translate(0px, -15px) rotate(0deg); }
+  to { transform: translate(3px, -19px) rotate(47deg); } }
+@keyframes openmouth_P7 { from { transform: translateY(-15px) rotate(-15deg); }
+  to { transform: translateY(-18px) rotate(20deg); } }
+@keyframes openmouth_P7_top { from { transform: translateY(2px) rotate(-20deg); }
+  to { transform: translateY(2px) rotate(-25deg); } }
+@keyframes openmouth_P8 { from { transform: translateY(-15px) rotate(-25deg); }
+  to { transform: translateY(-17px) rotate(-45deg); } }
+@keyframes openmouth_P8_top { from { transform: translateY(7px) rotate(-25deg); }
+  to { transform: translateY(0px) rotate(0deg); } }
+@keyframes openmouth_P11 { from { transform: translate(8px, -16px) rotate(-20deg); }
+  to { transform: translate(3px, -19px) rotate(-45deg); } }
+@keyframes openmouth_P11_top { from { transform: translate(5px, 5px) rotate(-25deg); }
+  to { transform: translate(0, 0) rotate(0deg); } }
+@keyframes openmouth_P12 { from { transform: translate(5px, -14px) rotate(-30deg); }
+  to { transform: translate(5px, -14px) rotate(-5deg); } }
+@keyframes facemovingright { from { transform: translate(-5px, 0px); }
+  to { transform: translate(0, 0); } }
+@keyframes facemovingleft { from { transform: translate(5px, 0px); }
+  to { transform: translate(0, 0); } }
+@keyframes zoombigout { 25% { transform: scale(0); }
+  65% { transform: scale(1.5); }
+  100% { transform: scale(1); } }
+#main-wrapper .title_text { margin-bottom: 100px; }
+#main-wrapper .title_text h1, #main-wrapper .title_text p { text-align: center; margin: 0; }
+#main-wrapper .title_text h1 { font-size: 40px; font-weight: bold; letter-spacing: 2px; }
+#main-wrapper .title_text p { font-weight: normal; }
+
+/*@import "page/index";*/
+body { background-color: #93C0E7; color: white; display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh; font-family: 'Roboto', sans-serif; overflow: hidden; }
